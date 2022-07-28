@@ -1,0 +1,6 @@
+---
+
+watch_list:
+  - name: query
+    url: 'https://www.google.com/search?q=query'
+    selector: '#search'
