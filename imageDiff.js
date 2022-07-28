@@ -1,3 +1,8 @@
+// Copyright (C) 2022 Marek Tomczewski
+//
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
 import { access, rm } from 'node:fs/promises';
 import pngVisualCompare from 'png-visual-compare'
 
