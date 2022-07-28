@@ -6,7 +6,7 @@
 /* EXTERNAL DEPENDENCIES */
 import * as puppeteer from 'puppeteer';
 import { mkdir } from 'node:fs/promises';
-import { exit } from 'process';
+import { exit, env } from 'process';
 import path from 'path';
 
 /* INTERNAL DEPENDENCIES */
@@ -17,8 +17,8 @@ import { readWatchList } from './watchlist.js';
 import { showReport, saveState } from './report.js'
 
 /* CONFIGURATION */
-const dataDir = './data';
-const configPath = './config.yml';
+const dataDir = env.DATA_DIR || './data';
+const configPath = env.CONFIG || './config.yml';
 const currentScreenshotPath = './current.png';
 const previousScreenshotPath = './previous.png';
 const imageDifferencesPath = './diff.png';

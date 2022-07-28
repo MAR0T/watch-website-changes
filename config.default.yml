@@ -4,3 +4,9 @@ watch_list:
   - name: query
     url: 'https://www.google.com/search?q=query'
     selector: '#search'
+  - name: Video Games by Player Count
+    url: 'https://en.wikipedia.org/wiki/List_of_most-played_video_games_by_player_count'
+    selector: '.wikitable'
+  - name: Money Heist
+    url: 'https://www.imdb.com/title/tt6468322/episodes?season=5'
+    selector: '.eplist'
