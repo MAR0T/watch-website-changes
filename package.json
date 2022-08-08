@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/MAR0T/watch-website-changes#readme",
   "dependencies": {
-    "png-visual-compare": "^0.4.13",
+    "png-visual-compare": "^0.4.14",
     "puppeteer": "^15.5.0",
     "yaml": "^2.1.1"
   }
