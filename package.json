@@ -19,7 +19,7 @@
   "homepage": "https://github.com/MAR0T/watch-website-changes#readme",
   "dependencies": {
     "png-visual-compare": "^0.4.14",
-    "puppeteer": "^16.1.0",
+    "puppeteer": "^16.2.0",
     "yaml": "^2.1.1"
   }
 }
