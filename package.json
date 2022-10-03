@@ -20,6 +20,6 @@
   "dependencies": {
     "png-visual-compare": "^0.4.15",
     "puppeteer": "^18.0.5",
-    "yaml": "^2.1.1"
+    "yaml": "^2.1.2"
   }
 }
