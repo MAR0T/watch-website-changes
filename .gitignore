@@ -1,2 +1,4 @@
 data
 node_modules
+run.sh
+config.yml
